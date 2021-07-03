@@ -9,15 +9,16 @@ h1{
 .name{
     color: #D71526;
 }
+h3{
+    color: coral;
+}
 .main{
     display: flex;
     background-image: url(img/head-bg.png);
     background-repeat: no-repeat;
     padding-left:50px ;
 }
-.main p{
-    text-align: justify;
-}
+
 .main-content{
     width:50%;
     padding: 20px;
@@ -43,15 +44,16 @@ h1{
     
     color: aliceblue;
 }
-.main2{
+.main2,.main3{
     display: flex;
+    margin-bottom: 150px;
 }
 .hello-content{
     width: 50%;
     padding: 20px;
     padding-right: 120px;
 }
-.hello-content p{
+p{
     text-align: justify;
 }
 .main2{
@@ -60,4 +62,37 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
     
+}
+.main3{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex-one,.ex-two{
+    width: 50%;
+    margin: 50px;
+    box-shadow: 5px 5px 30px rgba(14, 14, 14, 0.87);
+    padding: 0 20px 0 50px;
+
+}
+.ex{
+    text-align: center;
+}
+.ex-one h1,.ex-two h1{
+    font-size: 40px;
+}
+.ex-one{
+    border-left: 8px solid;
+    border-image: linear-gradient(#fd052f,#ff4618);
+    border-image-slice:1 ;
+
+}
+.ex-two{
+    border-left: 8px solid;
+    border-image: linear-gradient(#0063b4,#18e4ff);
+    border-image-slice:1 ;
+
+}
+footer p{
+    text-align: center;
 }
