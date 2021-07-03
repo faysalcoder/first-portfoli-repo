@@ -1,0 +1,42 @@
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+}
+h1{
+    font-size: 3em;
+}
+.name{
+    color: #D71526;
+}
+.main{
+    display: flex;
+    background-image: url(img/head-bg.png);
+    background-repeat: no-repeat;
+}
+.main p{
+    text-align: justify;
+}
+.main-content{
+    width:50%;
+    padding: 20px;
+    margin-left: 50px;
+}
+.main-img{
+    width: 50%;
+    padding: 20px;
+
+}
+.main-img img{
+    width: 80%;
+    margin: 0 auto;
+}
+.hire-btn{
+    text-decoration: none;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-image: linear-gradient(#d75215,#ff3318);
+    border-radius: 5px;
+    
+    color: aliceblue;
+}
