@@ -13,6 +13,7 @@ h1{
     display: flex;
     background-image: url(img/head-bg.png);
     background-repeat: no-repeat;
+    padding-left:50px ;
 }
 .main p{
     text-align: justify;
@@ -20,23 +21,43 @@ h1{
 .main-content{
     width:50%;
     padding: 20px;
-    margin-left: 50px;
+    
 }
 .main-img{
     width: 50%;
     padding: 20px;
 
 }
+
 .main-img img{
     width: 80%;
     margin: 0 auto;
+    margin-left: 50px;
 }
 .hire-btn{
     text-decoration: none;
     padding: 10px 30px;
-    font-weight: bold;
+   font-weight: 600;
     background-image: linear-gradient(#d75215,#ff3318);
     border-radius: 5px;
     
     color: aliceblue;
+}
+.main2{
+    display: flex;
+}
+.hello-content{
+    width: 50%;
+    padding: 20px;
+    padding-right: 120px;
+}
+.hello-content p{
+    text-align: justify;
+}
+.main2{
+    margin-top: 150px;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
