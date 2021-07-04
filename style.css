@@ -1,0 +1,67 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.half-width{
+    width: 50%;
+    padding:20px;
+}
+section{
+    display: flex;
+    padding-left: 60px;
+    margin-bottom: 100px;
+}
+p{
+    text-align: justify;
+}
+h1{
+    font-size: 3em;
+}
+.con-img{
+    width: 80%;
+}
+.sec1{
+    background-image: url(img/head-bg.png);
+    background-repeat: no-repeat;
+    
+}
+.name{
+    color: #009fb4;
+}
+h2{
+    color:#00c75a ;
+}
+.hire-btn,.view-btn{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-image: linear-gradient(#89dfeb,#009fb4);
+    border-radius: 5px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.sec2{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 100px;
+}
+.ex{
+    text-align: center;
+}
+.sec3 div{
+    padding-right: 50px;
+    padding-left: 50px;
+   margin-right:50px ;
+    box-shadow: 5px 10px 20px gray;
+    border-left: 8px solid;
+    border-image: linear-gradient(#89dfeb,#009fb4);
+    border-image-slice: 1;
+}
+.sec3{
+    background-image: url(./img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
+}
